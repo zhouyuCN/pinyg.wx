@@ -1,0 +1,54 @@
+.content .my-swiper {
+  width: 100%;
+  height: 350rpx;
+}
+.content .my-swiper .my-swiper-item {
+  width: 100%;
+  height: 100%;
+}
+.content .my-swiper .my-swiper-item .my-swiper-img {
+  width: 100%;
+  height: 100%;
+}
+.content .classify {
+  width: 100%;
+  height: 195rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .classify .item img {
+  width: 140rpx;
+  height: 140rpx;
+}
+.content .fashion-women .top {
+  width: 100%;
+  height: 72rpx;
+}
+.content .fashion-women .top img {
+  width: 100%;
+  height: 100%;
+}
+.content .fashion-women .bottom {
+  padding: 10px 16rpx;
+  display: flex;
+}
+.content .fashion-women .bottom .left {
+  margin-right: 10rpx;
+}
+.content .fashion-women .bottom .left img {
+  width: 230rpx;
+  height: 385rpx;
+}
+.content .fashion-women .bottom .right {
+  width: 470rpx;
+  height: 385rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.content .fashion-women .bottom .right img {
+  width: 230rpx;
+  height: 187rpx;
+}

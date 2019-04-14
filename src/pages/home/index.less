@@ -1,0 +1,72 @@
+@color-main: #eb4450;
+
+
+// 内容
+.content{
+    // 轮播图
+    .my-swiper{
+        width: 100%;
+        height: 350rpx;
+        .my-swiper-item{
+            width: 100%;
+            height: 100%;
+            .my-swiper-img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    // 分类
+    .classify{
+        width: 100%;
+        height: 195rpx;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .item{
+            img{
+                // display: inline-block;
+                width: 140rpx;
+                height: 140rpx;
+            }
+        }
+    }
+
+    // 时尚女装
+    .fashion-women{
+        .top{
+            // border: 1px solid #ccc;
+            width: 100%;
+            height: 72rpx;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .bottom{
+            padding: 10px 16rpx;
+            display: flex;
+            .left{
+               margin-right: 10rpx;
+                img{
+                    width: 230rpx;
+                    height: 385rpx;
+                }
+            }
+            .right{
+                width: 470rpx;
+                height: 385rpx;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-content: space-between;
+                img{
+                    width: 230rpx;
+                    height: 187rpx;
+                }
+
+            }
+        }
+    }
+}
