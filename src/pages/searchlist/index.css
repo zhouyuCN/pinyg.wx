@@ -1,5 +1,4 @@
 .top {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -50,7 +49,6 @@
 }
 .bottom {
   width: 100%;
-  padding: 220rpx 0 0 0;
 }
 .bottom .item {
   margin: 0 auto;
