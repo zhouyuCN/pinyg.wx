@@ -1,13 +1,13 @@
 <template>
   <!-- 头部 -->
   <div class="header">
-    <div class="search">
+    <a href="/pages/search/main" class="search">
       <input type="text">
       <div class="search-icon">
         <span class="icon">@</span>
         <span>搜索</span>
       </div>
-    </div>
+    </a>
   </div>
 </template>
 

@@ -1,7 +1,11 @@
+.big-box {
+  position: relative;
+}
 .top {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #fff;
 }
 .top .header {
   height: 100rpx;
@@ -48,6 +52,7 @@
   color: #eb4450;
 }
 .bottom {
+  background-color: #fff;
   width: 100%;
 }
 .bottom .item {

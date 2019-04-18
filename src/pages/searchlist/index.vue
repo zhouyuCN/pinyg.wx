@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="big-box">
     <div class="top" :style="{position:isScroll}">
       <!-- 头部 -->
       <div class="header">
@@ -22,7 +22,7 @@
 
     <!-- 内容 -->
     <div class="bottom" :style="{marginTop:margintop}">
-      <div class="item" v-for="(item,index) in searchList" :key="index">
+      <a :href="'/pages/detail/main?goods_id='+item.goods_id" class="item" v-for="(item,index) in searchList" :key="index">
         <img :src="item.goods_big_logo" alt>
         <div class="content">
           <p>{{item.goods_name}}</p>
@@ -31,7 +31,7 @@
             <span class="num">{{item.goods_price}}</span>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </template>
@@ -107,6 +107,7 @@ export default {
     this.pagenum = 1;
     this.query = "";
     this.searchList = [];
+    this.isEnd= false;
   },
   // 上拉触底事件
   onReachBottom() {
